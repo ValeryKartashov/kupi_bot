@@ -2,4 +2,13 @@
 @model KupiCore.Pages.Database.IndexModel
 @{
 }
-111
+<form asp-controller="Database" asp-action="AddCategory" method="post">
+    <label>Категории товаров</label>
+    <div>
+        <label>Имя категории</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label>Описание категории</label><br>
+        <input type="text" id="description" name="description"><br>
+        <input type="submit">Добавить</input>
+    </div>
+</form>
