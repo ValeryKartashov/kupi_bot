@@ -12,6 +12,9 @@
 # Игнорировать все файлы в каталоге bin/
 bin/Debug/net6.0/
 bin/Debug/
+bin/
+obj/Debug/net6.0/
+obj/Debug/
 obj/
 
 # Игнорировать файл doc/notes.txt, но не файл doc/server/arch.txt
@@ -19,6 +22,5 @@ doc/*.txt
 
 # Игнорировать все .txt файлы в каталоге doc/
 doc/**/*.txt
-
-*
-!.gitignore
+.vs/KupiCore/config/applicationhost.config
+.vs/KupiCore/v17/.suo
