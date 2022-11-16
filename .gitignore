@@ -17,3 +17,6 @@ doc/*.txt
 
 # Игнорировать все .txt файлы в каталоге doc/
 doc/**/*.txt
+
+*
+!.gitignore
