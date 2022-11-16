@@ -24,3 +24,6 @@ doc/*.txt
 doc/**/*.txt
 .vs/KupiCore/config/applicationhost.config
 .vs/KupiCore/v17/.suo
+.vs/KupiCore/DesignTimeBuild/.dtbcache.v2
+.vs/KupiCore/v17/.futdcache.v1
+.vs/KupiCore/v17/HierarchyCache.v1.txt

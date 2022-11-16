@@ -8,3 +8,21 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<div class="btnGet">
+    START2 BOT
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".btnGet").click(function() {
+            $.ajax({
+                type: "POST",
+                url: '/Home/RunBot',
+                success: function(data) {
+                    alert(data);
+                }
+            });
+        });
+    });
+</script>

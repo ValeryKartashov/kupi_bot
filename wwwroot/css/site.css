@@ -1,18 +1,33 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+.main-nav {
+    margin-left: 0.5rem;
+}
+
+header {
+    max-height: 10% !important;
+}
+
+.main-container {
+    max-height: 80% !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    max-height: 10% !important;
+    width: 100%;
 }
